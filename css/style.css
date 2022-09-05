@@ -13,22 +13,24 @@ html {
 
 /* CONTAINER */
 .container{
-  display: flex;
-  width: 85%;
   margin: 0 auto;
+  width: 85%;
+  display: flex;  
+  justify-content: center;
 }
 
+.flex{
+  display:flex;
+  justify-content: center;  
+}
 
 /* HEADER */
 
 /* Nav */
 .head_nav{
   height: 80px;
-  width: 100%;
-  background-color: lightblue;
-  display:flex;
-  align-items: center;
-  justify-content: center;  
+  background-color: lightblue;  
+  align-items: center;  
 }
 
 .head_logo, .head_menu, .head_login{
@@ -42,11 +44,14 @@ html {
 .head_jumbotron{
   height: 400px;
   background-color: blue;
-  display: flex;
 }
 
 .head_jumbo_text{  
+  border: 1px dashed black;
   background-color: fuchsia;
+  width: 60%;
+  height: 70%;
+  align-self: center;
 }
 
 
