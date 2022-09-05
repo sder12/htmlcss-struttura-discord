@@ -14,7 +14,7 @@ html {
 /* CONTAINER */
 .container{
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   display: flex;  
   justify-content: center;
   align-items: center;
@@ -94,7 +94,39 @@ html {
 }
 
 /* FOOTER */
+.foot_columns, .foot_registration{
+  background-color: black;
+}
+
+.wborder{
+  border: 1px dashed white;
+}
+
+.foot_columns{
+  height: 300px;
+}
+
+.foot_registration{
+  height: 100px;
+}
+
 /* Footer Columns */
+
+.footer_text{
+  background-color: lightseagreen;
+  height: 250px;
+  align-self: center;
+}
+
+.footcol{
+  width: 16%;
+}
+
+.footcol_big{
+  width: 36%;
+  background-color: lightcoral;
+}
+
 /* Footer Registration */
 
 
