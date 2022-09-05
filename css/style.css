@@ -12,10 +12,43 @@ html {
 }
 
 /* CONTAINER */
+.container{
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
 
 /* HEADER */
+
 /* Nav */
+.head_nav{
+  height: 80px;
+  width: 100%;
+  background-color: lightblue;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.head_logo, .head_menu, .head_login{
+  border: 1px dashed black;
+  background-color: rgb(255, 251, 134);
+  padding: 10px;
+  width: calc(100% / 3);
+}
+
 /* Banner */
+.head_jumbotron{
+  height: 400px;
+  background-color: blue;
+  display: flex;
+}
+
+.head_jumbo_text{  
+  background-color: fuchsia;
+}
+
 
 /* MAIN */
 /* Three Row */
