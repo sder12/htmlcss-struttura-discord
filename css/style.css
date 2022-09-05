@@ -7,8 +7,11 @@
 
 /* COMMON */
 html {
-  font-size: 62,5%;
-  font-family: Whitney;
+  font-size: 62, 5%;
+  font-family: "Whitney", sans-serif;
+  /* font-family: 'Whitney Semibold', sans-serif;
+  font-family: 'Whitney Book', sans-serif;
+  font-family: 'Whitney Light', sans-serif; */
 }
 
 /* CONTAINER */
@@ -49,11 +52,12 @@ html {
   padding: 10px;
 }
 
-.head_logo, .head_login{
+.head_logo,
+.head_login {
   width: 20%;
 }
 
-.head_menu{
+.head_menu {
   width: 60%;
 }
 
@@ -110,7 +114,6 @@ html {
 .foot_registration {
   background-color: black;
 }
-
 
 .foot_columns {
   height: 300px;
