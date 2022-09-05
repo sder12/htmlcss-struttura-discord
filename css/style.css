@@ -29,6 +29,10 @@ html {
   border: 1px dashed black;
 }
 
+.wborder {
+  border: 1px dashed white;
+}
+
 /* HEADER */
 
 /* Nav */
@@ -43,7 +47,14 @@ html {
 .head_login {
   background-color: rgb(255, 251, 134);
   padding: 10px;
-  width: calc(100% / 3);
+}
+
+.head_logo, .head_login{
+  width: 20%;
+}
+
+.head_menu{
+  width: 60%;
 }
 
 /* Banner */
@@ -100,9 +111,6 @@ html {
   background-color: black;
 }
 
-.wborder {
-  border: 1px dashed white;
-}
 
 .foot_columns {
   height: 300px;
