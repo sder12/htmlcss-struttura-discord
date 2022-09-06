@@ -63,8 +63,8 @@ html {
 
 /* Banner */
 .head_jumbotron {
-  height: 400px;
   background-color: blue;
+  height: 400px;
 }
 
 .head_jumbo_text {
@@ -155,5 +155,3 @@ html {
   background-color: coral;
   padding: 5px;
 }
-
-/* NB devo controllare se altezza la posso mettere con padding  */
